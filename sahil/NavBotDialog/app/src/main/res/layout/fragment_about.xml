@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".about">
+
+
+    <ImageView
+        android:layout_width="195dp"
+        android:layout_height="201dp"
+        android:src="@drawable/softclones"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SOFTCLONES COMMITTEE"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="SoftClones is the committe which was established on 21st Feb , 2000 by Department of Computer Engineering of Institute of Civil and Rural Engineering.It has slogan as KNOWLEDGE NO BAR. This committee is established to motivate students to realize/recognize their inner potentials to think outside of the box and to be competent enoufh with present it sector through sharing knowledge by almost all possible resourses. Committe arranges different activites to achieve the moto of committe." />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

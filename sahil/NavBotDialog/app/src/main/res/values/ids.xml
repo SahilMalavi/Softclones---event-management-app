@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_cancle" type="id" />
+    <item name="userMsg" type="id" />
+    <item name="btn_ok" type="id" />
+</resources>

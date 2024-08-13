@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "922455626600",
+    "firebase_url": "https://softclones-07-default-rtdb.firebaseio.com",
+    "project_id": "softclones-07",
+    "storage_bucket": "softclones-07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922455626600:android:aafe77ff97c04f15b37cdd",
+        "android_client_info": {
+          "package_name": "com.example.navbotdialog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922455626600-1cd9u9n0vmoar7qdoriogu63kd1jq912.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3hquCBzNfFFaCpeyCcrmxK0EQzh4x40A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922455626600-1cd9u9n0vmoar7qdoriogu63kd1jq912.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="HOME"
+        android:icon="@drawable/baseline_home_24"/>
+
+
+<!--    <item-->
+<!--        android:title=""/>-->
+
+    <item
+        android:id="@+id/committee"
+        android:title="COMMITTEE"
+        android:icon="@drawable/baseline_group_24" />
+<!--    <item-->
+<!--        android:id="@+id/library"-->
+<!--        android:title="Library"-->
+<!--        android:icon="@drawable/baseline_video_library_24" />-->
+
+</menu>

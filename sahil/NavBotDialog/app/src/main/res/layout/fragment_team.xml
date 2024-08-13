@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".team">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Assign Tasks to Volunteer"
+        android:drawableLeft="@drawable/baseline_edit_note_24"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="10dp"
+        android:padding="3dp"
+        android:text="Click on volunteer to add tasks"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        />
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/team"
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+                tools:ignore="NotSibling" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>
